@@ -1,0 +1,102 @@
+
+.footer-content .icons{
+    width: 100%;
+    display: flex
+;
+    justify-content: center;
+}
+
+
+
+
+
+.footer-content .icons a{
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    display: inline-flex
+;padding: 0 15px;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+
+}
+.footer-content .icons  img{
+    width: 45px;
+}
+/* .footer-content .icons  img.footerIcon{
+    width: 150%;
+} */
+
+.footer-content .icons::after{
+    content: "";
+    top: 30px;
+    height: 1px;
+    width: 50%;
+    right: 0;
+    background-color: #63636366;
+    display: flex
+;
+    position: relative;
+    margin-left: 20px;
+}
+.footer-content .icons::before{
+    content: "";
+    top: 30px;
+    height: 1px;
+    width: 50%;
+    background-color: #63636366;
+    display: flex
+;
+    position: relative;
+    left: 0;
+    margin-right: 5px;
+}
+
+
+
+.zedny_footer{
+
+        background: #000;
+        height: fit-content;
+}
+.footer-content{
+    text-overflow: ellipsis;
+    background: #0000005c;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #0000001a;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    width: 100%;
+    padding: 0 4.5%;
+    padding-top: 8rem;
+}
+
+.footer-content .pre_landing_footer{
+    padding-bottom: 2rem;
+
+}
+
+.copy_right p{
+    color: var(--white, #fff);
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    margin: 2rem 0 1rem;
+    text-transform: capitalize;
+}
+.footer-content .pages{
+    display: flex
+    ;
+        justify-content: center;
+}
+.footer-content .pages a{
+    text-decoration: none;
+}
+.footer-content .pages a p{
+    text-align: center;
+    font-size: .9rem;
+    font-weight: 300;
+    color: #fff;
+    padding: 0 3px;
+}
